@@ -1,0 +1,26 @@
+## .gitignore ##
+
+# Ignore all.
+/*
+
+# Ignore debugging or execution files.
+/Result/*
+/Figure/*
+*.dSYM
+*.exe
+*.DS_Store
+.tags
+.tags1
+
+# Allow source files.
+!.gitignore
+!/Library/
+!/Result/
+!/Figure/
+!*.cpp
+!*.txt
+!*.tex
+!*.pdf
+
+# Ignore configuration file.
+config.hpp
